@@ -3,12 +3,101 @@
   <head>
     <meta charset="utf-8">
     <title>Scouts BSA Troop 485</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
   <body>
-    <nav>
-      <h2 href="">Scouts BSA Troop 485, Westlake Village, CA</h2>
-      <a href="">Contact</a>
-      <a href="">Events</a>
+    <nav class="navbar">
+      <a href="https://bsa485.com/#" class="nav-text">Scouts BSA Troop 485, Westlake Village, CA</a>
+      <div class="nav-buttons">
+        <a href="#footer" class="nav-hover">Contact</a>
+        <a href="#scoutmaster" class="nav-hover">Events</a>
+      </div>
+      <script src="dropdown.js"></script>
+      <div class="nav-small">
+        <a onclick="navSmallDrop()" class="nav-small-btn">&#9660;</a>
+        <div class="nav-small-drop" id="nav-small-drop">
+          <a href="#footer">Contact</a>
+          <a href="#scoutmaster">Events</a>
+        </div>
+      </div>
     </nav>
+
+    <div class="adventure-div">
+      <img class="adventure-icon" src="imgs/scouts_bsa.png">
+      <br />
+      <a href="https://www.facebook.com/pg/Troop485/about/" class="adventure-button">Start your adventure.</a>
+    </div>
+
+    <div class="features-div">
+      <div class="feature-div">
+        <img class="feature-img" src="imgs/landmark.png">
+        <h2>Since 1976.</h2>
+        <span>
+          For Scouts ages 11-17.
+          We meet Monday nights from 7 to 8:30 pm.
+          Westminster Presbyterian Church.
+          32111 Watergate Rd, Westlake Village, CA 91361.
+        </span>
+      </div>
+      <div class="feature-div">
+        <img class="feature-img" src="imgs/compass.png">
+        <h2>Scout-Led.</h2>
+        <span>
+          "Train Scouts to do a job, then let them do it. Never do anything a boy can do." -Sir Robert Baden-Powell
+        </span>
+      </div>
+      <div class="feature-div">
+        <img class="feature-img" src="imgs/campground.png" />
+        <h2>Be Prepared.</h2>
+        <span>
+          Build confidence and self-esteem.
+        Learn life skills and leadership.
+        Be part of something bigger than yourself.
+      </span>
+      </div>
+    </div>
+    <div class="slideshow-div">
+      <script src="slideshow.js"></script>
+
+      <div class="slideshow-slide" style="display:block;">
+        <div class="slideshow-text">Scouting gives our whole family a way to adventure together and to serve our local community.</div>
+        <img class="icon" src="imgs/tim_profile.png">
+        <div class="slideshow-text slideshow-author">Tim K.</div>
+      </div>
+
+      <div class="slideshow-slide">
+        <div class="slideshow-text">I can't wait for our next electronics night.</div>
+        <img class="icon" src="imgs/bash_profile.png">
+        <div class="slideshow-text slideshow-author">Bash H-K.</div>
+      </div>
+
+      <div class="slideshow-slide">
+        <div class="slideshow-text">Third slide</div>
+        <img class="icon" src="">
+        <div class="slideshow-text slideshow-author"></div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <div class="scoutmaster-div" id="scoutmaster">
+      <h1 class="scoutmaster-title">Letter from the Scoutmaster</h1>
+      <div class="scoutmaster-textarea">
+        <p class="scoutmaster-text">Troop 485 provides young adults the opportunity to experience Scouting in a smaller Troop with many leadership opportunities. The smaller size allows more mentorship between experienced and inexperienced scouts. This model provides frequent teaching and leadership development opportunities as well as the ability to hold many Troop leadership positions (Patrol Leader and Senior Patrol Leader). Rank advancement follows the mentorship so Scouts grow in Scouting rapidly. The Troop has monthly outings as weather permits with approximately 6 camping trips per year as well as a week long trip to a Scout Camp. After one year in Scouting, during the campouts, the boys can setup their own tents, cook their own food, clean their gear and execute a planned activity with minimal supervision.</p>
+        <p class="scoutmaster-text">As I was never in Scouting, to see my sons become so independent at the ages of 11 and 12, has been a real eye-opener and made me into a Scouting believer. The basic Scout and leadership skills they learn through Rank Advancement and the advanced technical skills they learn through Merit Badges develops young adults into the antithesis of the perception of the modern millennial. They become capable young adults able to perform at an adult level so they develop confidence and true self-esteem.</p>
+        <p class="scoutmaster-text">Beyond the skills, Scouting in Troop 485 develops character with a focus on living the Scout Oath and Scout Law, highlighting these at Scout meetings, Boards of Review and Scoutmaster conferences.</p>
+      </div>
+      <img class="icon scoutmaster-icon" src="imgs/scoutmaster_profile.png">
+      <h2 class="scoutmaster-author">Greg Dato</h2>
+      <h2 class="scoutmaster-author">Troop 485 Scoutmaster</h2>
+    </div>
+
+    <div class="footer-div" id="footer">
+      <a href="https://www.facebook.com/pg/Troop485/about/" class="footer-link"><img class="footer-icon" src="imgs/facebook_icon.png"></a>
+      <a href="mailto:boyscouts485@gmail.com" class="footer-link"><img class="footer-icon" src="imgs/mail_icon.png"></a>
+    </div>
+    <script> </script>
   </body>
 </html>
