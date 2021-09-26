@@ -3,7 +3,7 @@ function navSmallDrop() {
 }
 
 window.onclick = function(event) {
-  if (!event.target.matches('.nav-small-btn')) {
+  if (!event.target.matches('.nav-small-btn-icon')) {
     var dropdowns = document.getElementsByClassName("nav-small-drop");
     var i;
     for (i = 0; i < dropdowns.length; i++) {
