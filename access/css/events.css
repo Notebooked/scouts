@@ -3,29 +3,23 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.description-div {
-  background-color: #d6cebd;
-  padding: 50px;
-}
+/* events */
 
-.description-title {
-  font-size: 50px;
-  text-align: center;
-  margin: 0;
-}
-
-.description-span {
+.events-div {
   display: block;
-  padding: 20px;
-  font-size: 20px;
-  font-family: "Roboto Slab", serif;
-  color: gray;
-  font-weight: 600;
+  width: 100%;
+}
+
+.events-table {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
 }
 
 /* footer */
 
-.footer-div {
+footer {
   text-align: center;
   width: 100%;
   padding-bottom: 20px;
