@@ -169,12 +169,12 @@ body {
 
 /* footer */
 
-.footer-div {
+footer {
   text-align: center;
   width: 100%;
   padding-bottom: 20px;
-  position: absolute;
-  bottom: -1;
+  position: fixed;
+  bottom: 0;
 }
 
 .footer-link {
