@@ -29,8 +29,7 @@ body {
   text-align: center;
   width: 100%;
   padding-bottom: 20px;
-  position: fixed;
-  bottom: 0;
+  background-color: #d6cebd;
 }
 
 .footer-link {
