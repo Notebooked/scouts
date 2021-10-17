@@ -189,3 +189,35 @@ footer {
 .footer-link i:hover {
   color: gray;
 }
+
+/* login */
+
+.login-div {
+  background-color: #d6cebd;
+  padding: 50px;
+  margin-bottom: 100px;
+}
+
+.login-title {
+  text-align: center;
+  color: #243E2C;
+  font-weight: lighter;
+}
+
+.login-label {
+  font-size: 30px;
+}
+
+.login-area {
+  float: right;
+  font-size: 30px;
+}
+
+.login-group {
+  margin: 40px;
+}
+
+.login-submit {
+  padding: 8px 32px;
+  font-size: 20px;
+}
