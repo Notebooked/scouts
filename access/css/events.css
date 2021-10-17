@@ -5,16 +5,33 @@ body {
 
 /* events */
 
+table, th, td {
+  border: 1px solid gray;
+}
+
 .events-div {
-  display: block;
+  padding: 20px;
+}
+
+.events-div h1 {
+  text-align: center;
+}
+
+table {
   width: 100%;
 }
 
-.events-table {
-  display: block;
-  font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
+table td {
+  padding: 12px 14px;
+  text-align: center;
+}
+
+table th {
+  padding: 8px 4px;
+}
+
+td,th {
+  font-size: 3vw;
 }
 
 /* footer */
