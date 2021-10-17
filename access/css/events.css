@@ -36,12 +36,16 @@ table th {
 td,th {
   font-size: 3vw;
   padding: 8px;
+  font-family: 'Scheherazade New', serif;
 }
 
 tr:nth-child(even){background-color: #f2f2f2;}
 
-tr:hover{
+td:hover{
   background-color: lightgray;
+}
+td{
+  color: #212121;
 }
 
 /* footer */
