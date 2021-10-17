@@ -25,3 +25,17 @@ footer {
 .footer-link i:hover {
   color: gray;
 }
+
+.anchor-page{
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+.anchor-page:hover{
+  color: lightgray;
+}
+
+.div-anchor{
+  background-color: #243E2C;
+  text-align: center;
+}
